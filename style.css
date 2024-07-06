@@ -1,0 +1,119 @@
+@import url('https://fonts.googleapis.com/css2?family=M+PLUS+2:wght@100..900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "M PLUS 2", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+    background: #dododo;
+}
+
+.wrapper {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    padding: 10px 30px;
+    border: solid 1px #a4a4a4;
+    border-radius: 6px;
+    flex-wrap: wrap;
+    background: #efefef;
+    margin: 8px 2px;
+    justify-content: center;
+    align-items: center;
+    width: calc(50% - 4px); /* Adjusted width to ensure two containers fit side by side */
+    box-sizing: border-box;
+}
+
+header {
+    text-align: center;
+    background: #0af;
+    color: #efefef;
+    padding: 4em 10em;
+}
+
+.trusted {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+
+.trusted > div {
+    flex: 1;
+    text-align: center;
+}
+
+header h1 {
+    font-size: 1em;
+    margin-bottom: 7.4em;
+}
+
+header h2 { font-size: 2.1em; }
+
+header h2:hover {
+    cursor: pointer;
+    color: #11f;
+}
+
+.container > div { flex: 1; }
+
+.container img {
+    height: 80px;
+    width: 80px;
+    border: solid 2px #111;
+    border-radius: 40px;
+    box-sizing: border-box;
+}
+
+.container h1,
+.container p {
+    font-size: 1em;
+    margin: 2px 0;
+}
+
+.container label {
+    font-size: .6em;
+    font-weight: 400;
+}
+
+.container form button {
+    width: 100%;
+    background: #1af;
+    border: solid 1px #1af;
+    border-radius: 3px;
+    color: #efefef;
+    font-weight: 700;
+    padding: 10px 0;
+    margin: 5px 0;
+}
+
+.container form button:hover {
+    cursor: pointer;
+    border: solid 1px #111;
+    color: #111;
+}
+
+.container form input {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+@media only screen and (max-width: 720px) {
+    .container {
+        width: 100%;
+        padding: 30px;
+    }
+
+    header h1 { font-size: .6em; }
+    header h2 { font-size: 1.1em; }
+}
+
+@media only screen and (max-width: 420px) {
+    .container, header { flex-direction: column; }
+    header { padding: 3em 0; }
+}

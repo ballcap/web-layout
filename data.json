@@ -1,0 +1,26 @@
+[
+  {
+    "img": "https://images.unsplash.com/photo-1720040960409-e70d6d45bb40?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw2fHx8ZW58MHx8fHx8",
+    "name": "Michael Jordan",
+    "sex": "Male",
+    "age": "19",
+    "job": "Web Designer",
+    "location": "Los Angeles, CA"
+  },
+  {
+    "img": "https://plus.unsplash.com/premium_photo-1669807973355-70054e05b675?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHw5fHx8ZW58MHx8fHx8",
+    "name": "Andrea Bargnani",
+    "sex": "Female",
+    "age": "22",
+    "job": "Point Guard",
+    "location": "Toronto, ON"
+  },
+  {
+    "img": "https://images.unsplash.com/photo-1719937075949-83b1f1ee3e42?w=600&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxmZWF0dXJlZC1waG90b3MtZmVlZHwyfHx8ZW58MHx8fHx8",
+    "name": "Luigi Mario",
+    "sex": "Male",
+    "age": "18",
+    "job": "Small Forward",
+    "location": "Mississauga, BC"
+  }
+]
