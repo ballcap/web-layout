@@ -114,6 +114,6 @@ header h2:hover {
 }
 
 @media only screen and (max-width: 420px) {
-    .container, header { flex-direction: column; }
+    .container, .trusted { flex-direction: column; }
     header { padding: 3em 0; }
 }
