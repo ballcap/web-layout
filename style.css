@@ -117,3 +117,74 @@ header h2:hover {
     .container, .trusted { flex-direction: column; }
     header { padding: 3em 0; }
 }
+
+
+
+
+
+
+
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic&display=swap');
+
+body {
+    margin: auto;
+    background: #efefef;
+    font-family: "Nanum Gothic", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.container {
+    display: flex;
+    border: solid 1px #bcbcbc;
+    flex-wrap: wrap;
+    border-radius: 5px;
+    margin: 18px 0;
+    background: #fff;
+    box-shadow: 0 .2em 11px #9a9a9a;
+    justify-content: center;
+    align-items: center;
+}
+
+.container > div {
+    flex: 1;
+    padding: .5em 1em;
+}
+
+.img { text-align: center; }
+
+.img > img {
+    height: 70px;
+    width: 70px;
+    border: solid 2px #494949;
+    border-radius: 70px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-size: .6em;
+    font-weight: 600;
+    color: #123;
+    margin: 1em 0;
+}
+
+p {
+    font-size: 1.3em;
+    color: #abc;
+    margin: 0;
+}
+
+@media only screen and (max-width: 480px) {
+    .container {
+        flex-direction: column;
+        margin: 4px 0;
+    }
+
+    .container > div { padding: 1.5em 1em; }
+
+    .img > img {
+        width: 100%;
+        height: auto;
+        border-radius: 10px;
+    }
+}
